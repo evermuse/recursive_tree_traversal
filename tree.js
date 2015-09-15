@@ -2,20 +2,20 @@
 // a tree to be climbed.
 module.exports = {
   root: {
-    name: 'Bjorn',
-    age: 28,
-    has_parent: null,
-    is_leaf: false
-    has_children: true,
-    children: [{
-        name: 'Manny',
-        age: 22,
-        has_parent: true,
-        is_leaf: false,
-        has_children: true,
-        children: [{
-            name: 'Spencer Toyama',
-            age: 28,
+    name : 'Bjorn',
+    age : 28,
+    has_parent : null,
+    is_leaf : false,
+    has_children : true,
+    children : [{
+        name : 'Manny',
+        age : 22,
+        has_parent : true,
+        is_leaf : false,
+        has_children : true,
+        children : [{
+            name : 'Spencer Toyama',
+            age : 28,
             has_parent: false,
             is_leaf: true,
             has_children: false,
